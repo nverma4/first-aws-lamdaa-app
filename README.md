@@ -3,13 +3,8 @@ AWS Lambda is a serverless computing service provided by Amazon to reduce the co
 
 AWS Lambda lets you run code without provisioning or managing servers—it scales automatically and only charges for the time your code is running
 
-## Spring Cloud Function : 
-https://www.youtube.com/watch?v=euLs1SbYKzE&t=807s
+## Requred Dependencies
 
-
-## Dependency (Required)
-
-```javascript
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-function-adapter-aws</artifactId>
@@ -24,13 +19,12 @@ https://www.youtube.com/watch?v=euLs1SbYKzE&t=807s
 			<artifactId>aws-lambda-java-core</artifactId>
 			<version>1.1.0</version>
 		</dependency>
-```
+
 
 
 
 ## Plugins (It will helps to downstream your jar size)
 
-```javascript
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -61,5 +55,5 @@ https://www.youtube.com/watch?v=euLs1SbYKzE&t=807s
 				</configuration>
 			</plugin>
 		</plugins>
-```
+
 
